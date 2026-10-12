@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* color: green; */
+    margin-bottom: 20px;
+    background-color: #A19791;
+    text-shadow: 0 0 10px white;
+    font-family: "Saira", sans-serif;
+    
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    background-color: #6c9d6e;
+    padding: 30px 10px;
+    position: sticky;
+    top: 0;
+    box-shadow: 50px 10px 20px  black;
+}
+
+.hero {
+    background-image: url(backgroung-pet.jpg);
+    background-size: cover;
+    padding: 40px;
+    box-shadow: 50px 5px 10px black;
+    margin-bottom: 10px;
+}
+
+.best-sellers {
+    background-image: url(backgroung-pet.jpg);
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: column;   */
+    padding: 30px;
+    border-radius: 30px;
+    
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.uno {
+    background-color: #A19791;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
